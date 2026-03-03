@@ -1,0 +1,40 @@
+# ### Python ###
+# 파이썬 바이트코드 (Java의 .class 파일과 유사)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ### 가상환경 (Virtual Environments) ###
+# 프로젝트 로컬에 생성된 가상환경 폴더
+.venv/
+venv/
+ENV/
+env/
+
+# ### 환경변수 및 보안 (Secrets) ###
+# DB 계정, API Key 등이 포함된 파일 (절대 커밋 금지)
+.env
+.flaskenv
+
+# ### Distribution / Packaging ###
+# 빌드 및 배포 관련 파일
+dist/
+build/
+*.egg-info/
+
+# ### IDE / Editor ###
+# PyCharm, IntelliJ 설정 파일
+.idea/
+# VS Code 설정 파일
+.vscode/
+*.swp
+*.swo
+
+# ### OS ###
+# 운영체제 생성 파일
+.DS_Store
+Thumbs.db
+
+# ### Log ###
+# 로그 파일
+*.log
