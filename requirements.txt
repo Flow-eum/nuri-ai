@@ -1,0 +1,13 @@
+# FastAPI 코어 및 서버
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+
+# 데이터베이스 및 ORM
+sqlalchemy>=2.0.0
+
+# 환경 변수 관리 및 설정
+python-dotenv>=1.0.0
+pydantic-settings>=2.1.0
+
+# 데이터 검증 및 직렬화
+pydantic>=2.6.0
