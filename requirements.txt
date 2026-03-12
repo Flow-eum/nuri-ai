@@ -11,3 +11,5 @@ pydantic-settings>=2.1.0
 
 # 데이터 검증 및 직렬화
 pydantic>=2.6.0
+
+openai>=2.26.0
