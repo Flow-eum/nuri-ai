@@ -18,4 +18,6 @@ class Settings(BaseSettings):
         case_sensitive=True
     )
 
+    API_AUTH_TOKEN: str = "~~~"
+
 settings = Settings()
